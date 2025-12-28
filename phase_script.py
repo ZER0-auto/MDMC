@@ -15,7 +15,7 @@ class Phase_script:
         self,
         file,
         Tem,
-        degreeMax=18,
+        degreeMax=50,
         x0=0,
         x1=0.25,
         cg=-0.04626020292721478 * 8,
@@ -143,3 +143,4 @@ class Phase_script:
 
         dy = np.poly1d([UV[0], d])
         self.y -= dy(self.x)
+
